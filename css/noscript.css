@@ -1,0 +1,75 @@
+/***** No Script Stylesheet *****/
+#mainmenu li:hover ul{
+display:block;		
+}
+
+ul.slides{
+display:none;
+}
+
+#slideshow-container{
+width:1040px;	
+height:660px;
+margin-top:-7.3%;
+background-image:url(../images/slider-images/slide_truck.jpg);
+background-repeat:no-repeat;
+}
+
+.clientslider div:first-child{
+display:block;
+}
+
+.clientslider div{
+display:none;
+}
+
+.tab_container div:first-child{
+display:block;
+}
+
+.tab_container div{
+display:none;
+}
+
+.es-carousel ul li a{
+display:block;
+}
+
+#twitter-box{
+display:none;
+}
+
+#bottom-box h4{
+display:none;
+}
+
+#bottomtext-box-noscript {
+width:86%;
+background-color:#fff;
+border-right:1px solid #d0d1d1;
+border-bottom:1px solid #d0d1d1;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+margin:27px auto 17px;
+padding:1px;
+display:block;
+}
+
+#bottomtext-box-noscript #bottomtext-content{
+width:82%;
+}
+
+#bottomtext-box-noscript #bottomtext-content p{	
+text-align:center;
+display:block;
+}
+
+#map{
+width:442px;	
+height:302px;
+background-image:url(../images/sample-images/noscript-map.jpg);
+background-repeat:no-repeat;
+display:block;
+position:absolute;
+}

@@ -1,0 +1,521 @@
+/***** Desktop view *****/
+.row {
+width:1000px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0 -19px;
+}
+
+.grid_1 {
+width:62px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_2 {
+width:128px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3 {
+width:212px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_4 {
+width:295px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_5 {
+width:382px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_6 {
+width:462px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_7 {
+width:542px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_8 {
+width:629px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_9 {
+width:712px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_10 {
+width:796px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_11 {
+width:862px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_12 {
+width:962px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.space_1 {
+margin-left:99px;
+}
+
+.space_2 {
+margin-left:179px;
+}
+
+.space_3 {
+margin-left:259px;
+}
+
+.space_4 {
+margin-left:339px;
+}
+
+.space_5 {
+margin-left:419px;
+}
+
+.space_6 {
+margin-left:499px;
+}
+
+.space_7 {
+margin-left:579px;
+}
+
+.space_8 {
+margin-left:659px;
+}
+
+.space_9 {
+margin-left:739px;
+}
+
+.space_10 {
+margin-left:819px;
+}
+
+.space_11 {
+margin-left:899px;
+}
+
+.grid_2_custom_footer {
+width:155px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3_custom_footer {
+width:269px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_6_custom_left {
+width:456px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 25px 0 19px;
+}
+
+.grid_6_custom_right {
+width:456px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px 0 25px;
+}
+
+.grid_founder_img {
+width:224px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_founder_text {
+width:360px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3_alt {
+width:184px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 18px;
+}
+
+.post-info {
+width:190px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 38px 0 18px;
+}
+
+.post-content {
+width:381px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 18px 19px;
+}
+
+.grid_faq {
+width:275px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+
+/***** Tablet view *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.row {
+width:768px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0 -14px;
+}
+
+.grid_1 {
+width:36px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_2 {
+width:100px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_3 {
+width:164px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_4 {
+width:228px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_5 {
+width:292px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_6 {
+width:356px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_7 {
+width:420px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_9 {
+width:548px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_10 {
+width:612px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_11 {
+width:676px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_2_custom_footer {
+width:132px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_3_custom_footer {
+width:196px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.post-info {
+width:475px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_faq {
+width:198px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.space_1 {
+margin-left:78px;
+}
+
+.space_2 {
+margin-left:142px;
+}
+
+.space_3 {
+margin-left:206px;
+}
+
+.space_4 {
+margin-left:270px;
+}
+
+.space_5 {
+margin-left:334px;
+}
+
+.space_6 {
+margin-left:398px;
+}
+
+.space_7 {
+margin-left:462px;
+}
+
+.space_8 {
+margin-left:526px;
+}
+
+.space_9 {
+margin-left:590px;
+}
+
+.space_10 {
+margin-left:654px;
+}
+
+.space_11 {
+margin-left:718px;
+}
+
+.grid_8,.grid_founder_img,.grid_founder_text,.grid_3_alt,.post-content {
+width:484px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}
+
+.grid_12,.grid_6_custom_left,.grid_6_custom_right {
+width:740px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 14px;
+}	
+}
+
+
+/***** Phone view (landscape) *****/
+@media only screen and (max-width: 767px) {
+.row {
+width:300px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0;
+}
+
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_3_alt {
+width:300px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:10px 0 0;
+}
+
+.post-info,.post-content {
+width:100%;
+overflow:hidden;
+float:left;
+display:inline;
+margin:10px 0 0;
+}
+
+.grid_faq {
+width:91%;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.space_1,.space_2,.space_3,.space_4,.space_5,.space_6,.space_7,.space_8,.space_9,.space_10,.space_11, {
+margin-left:0;
+}				
+}	 
+
+
+/***** Phone view (portrait) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.row {
+width:456px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0;
+}
+
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_3_alt {
+width:456px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:10px 0 0;
+}
+	
+}
+
+
+/***** Clean up on isle 6 *****/
+.container:after {
+content:"\0020";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix:before,.clearfix:after,.row:before,.row:after {
+content:'\0020';
+display:block;
+overflow:hidden;
+visibility:hidden;
+width:0;
+height:0;
+}
+
+.row:after,.clearfix:after {
+clear:both;
+}
+
+.clear {
+clear:both;
+display:block;
+overflow:hidden;
+visibility:hidden;
+width:0;
+height:0;
+}

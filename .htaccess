@@ -49,7 +49,11 @@ DirectoryIndex index.php
     # If the file/dir is NOT real go to index
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+    RewriteRule ^(.*)$ index.php/$1 [QSA,L]      
+
+	# Allow use of extensions
+	RewriteCond $1 !^(index\.php|images|robots\.txt|css|js|jpg|csv|png|pdf)
+	RewriteRule ^(.*)$ \index.php/$1 [L]
     
 </IfModule>
 

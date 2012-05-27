@@ -1,0 +1,71 @@
+/***** Custom Color and Pattern Stylesheet *****/
+body {
+background:#FFF url(../images/skins/bg-body1.jpg); /* You can change this bg pattern with another pattern (bg-body1.jpg) until (bg-body10.jpg) */
+font:12px Arial, Tahoma, Verdana;
+color:#979797;
+margin:0;
+padding:0;
+}
+
+#main-wrapper {
+width:100%;
+max-width:1040px;
+background-color:#fff;
+margin:0 auto;
+
+/* You can remove the box shadow if you don't like it */
+-webkit-box-shadow:0 0 20px 15px #dedede; 
+-moz-box-shadow:0 0 20px 15px #dedede;
+box-shadow:0 0 20px 15px #dedede;
+/* You can remove the box shadow if you don't like it */
+}
+
+#bg-oblique {
+height:100px;
+background:url(../images/skins/background-oblique1.png) no-repeat;
+position:relative;
+z-index:80;
+}
+
+#header-wrapper {
+height:auto;
+min-height:108px;
+background-color:#fff3cd;
+position:relative;
+z-index:100;
+}
+
+#footer-border {
+height:93px;
+background:url(../images/skins/background-oblique2.png) no-repeat center;
+margin-top:-8.5%;
+position:relative;
+z-index:80;
+}
+
+#footer-content {
+background-color:#65696e!important;
+padding:25px 0 70px;
+}
+
+/* Added by Rick / Cybertek -- */
+ 
+img.form-img {
+	display: inline;
+	vertical-align: middle;
+}
+
+.quote-form-home {
+	margin-left: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+#footer-border {
+height:93px;
+background:url(../images/skins/background-oblique2.png) no-repeat center;
+margin-top:-16%;
+position:relative;
+z-index:80;
+}
+}
+

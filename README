@@ -6,4 +6,12 @@ Framework : codeigniter 2.0.1
 Agency	  : Cybertek IM
 Lead	  : Rick Gonzalez
 Designer  : Moses Sanchez
-Contact	  : 818.240.2212
+Contact	  : 818.240.
+
+Sparks
+		  : friendly-template
+		  desc	 	: Codeigniter Template Library
+		  version	: 1.1.4
+		  author	: Jens Segers
+		  website 	: https://github.com/segersjens/CodeIgniter-Template-Library
+
